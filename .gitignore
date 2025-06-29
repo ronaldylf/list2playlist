@@ -1,1 +1,7 @@
 songs_list.txt
+
+venv/
+__pycache__/
+
+client_secret.json
+token.pickle
