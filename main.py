@@ -2,7 +2,7 @@ import time
 from dotenv import load_dotenv
 from services import *
 
-load_dotenv() # load .env variables
+load_dotenv(override=True) # load .env variables
 
 PLAYLIST_ID = os.environ['PLAYLIST_ID']
 
